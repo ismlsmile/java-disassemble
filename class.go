@@ -3,7 +3,7 @@ package disassemble
 const MagicNumber = 0xCAFEBABE
 
 //JClass represents a compiled Java class
-//The class is read
+//The class file is read in sequential byte order
 type JClass struct {
 	// first 4 bytes
 	Magic [4]byte
