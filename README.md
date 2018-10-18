@@ -26,7 +26,7 @@ func main() {
 
 	fmt.Println("Is Java?:", class.Magic == disassemble.MagicNumber)
 	fmt.Printf("major version: %d, minor version: %d\n", class.MajorVer, class.MinorVer)
-	fmt.Println("Is at least Java8?:", class.MajorVer >= disassemble.SE8)
+	fmt.Println("Is at least Java8?:", class.MajorVer >= disassemble.JavaSE8)
 	fmt.Println("Class Pool Size:", class.ConstantPoolSize)
 }
 ```
